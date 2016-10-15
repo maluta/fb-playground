@@ -6,6 +6,7 @@ import os
 
 # own modules
 from facebook import Graph
+from facebook import Analysis
 
 # test code
 TOKEN = os.environ['FB_TOKEN']

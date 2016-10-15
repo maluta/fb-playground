@@ -13,3 +13,7 @@ class Graph:
         """ By default retrieves the first 1000 comments of a specified post """
         r = requests.get(self.BASE_URL + "/" + id +"/comments" + "?fields=" + ",".join(fields) + "&limit" + str(limit) + "&access_token=" + self.TOKEN )
         return r.text
+
+class Analysis:
+    def __init__(self,token):
+        pass
