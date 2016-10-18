@@ -10,6 +10,12 @@ from facebook import Analysis
 
 # test code
 TOKEN = os.environ['FB_TOKEN']
-fb = Graph(TOKEN)
-print(fb.whoami())
-print(fb.comments("670874126401553"))
+# fb = Graph(TOKEN)
+
+# get data and save it!
+# fb.toJSON(fb.whoami(),"whoami.json")
+# fb.toJSON(fb.comments("670874126401553"),"comments.json")
+
+# analysis
+a = Analysis()
+a.words('comments.json')
