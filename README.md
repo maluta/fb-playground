@@ -8,8 +8,10 @@
 3. Run the script
 
 
+```
 	export FB_TOKEN="..."
 	python3 fb-read.py
+```
 
 ## Features
 
