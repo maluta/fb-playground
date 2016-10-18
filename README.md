@@ -3,12 +3,20 @@
 
 ## How to
 
-1. Get 'Access Token' at https://developers.facebook.com/tools/explorer/
+1. Get **Access Token** at  https://developers.facebook.com/tools/explorer/
 2. Save as FB_TOKEN env variable
-	# export FB_TOKEN="..."
-3. #python3 fb-read.py
+3. Run the script
 
 
-## Authors 
+	export FB_TOKEN="..."
+	python3 fb-read.py
 
-Tiago Maluta 
+## Features
+
+- ```whoami()```
+- ```comments()```
+- ```toJSON()```
+
+## Authors
+
+Tiago Maluta
